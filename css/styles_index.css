@@ -139,11 +139,6 @@ div.header h1{
     font-size: 1000%;
 }
 
-div.header h1.vera{
-    font-size: 700%;
-    font-family: 'coffekan';
-}
-
 div.info{
     width: 100%;
     display: flex;
@@ -168,3 +163,31 @@ footer{
     height: 150px;
 }
 
+footer{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    nav .burguerNav a{
+        text-align: center;
+        font-family: 'coffekan';
+        font-size: 40px;
+        text-decoration: none;
+        color: black;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    div.header h1{
+        font-family: 'harmond';
+        font-size: 500%;
+    }
+    div.info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+  }
