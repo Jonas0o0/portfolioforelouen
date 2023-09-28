@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'coffekan';
+	src: url('../fonts/coffekan.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'harmond';
+	src: url('../fonts/Harmond-ExtraBoldExpanded8.otf') format('opentype'),
+      url('../fonts/Harmond-ExtraBoldExpanded8.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
